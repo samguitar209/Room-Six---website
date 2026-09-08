@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Six</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Room Six</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gigs.html">Gigs</a>
+        <a href="music.html">Music</a>
+        <a href="photos.html">Photos</a>
+        <a href="sheets.html">Music Sheets</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Room Six</h2>
+    <p>Live music, good vibes, and great nights.</p>
+</section>
+
+<section>
+    <h3>Latest News</h3>
+    <p>Check out our upcoming gigs and new music releases.</p>
+</section>
+
+<footer>© Room Six</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Six - Gigs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Upcoming Gigs</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gigs.html">Gigs</a>
+        <a href="music.html">Music</a>
+        <a href="photos.html">Photos</a>
+        <a href="sheets.html">Music Sheets</a>
+    </nav>
+</header>
+
+<section>
+    <ul class="gig-list">
+        <li><strong>12 Oct 2026</strong> — The Red Lion, Pinner</li>
+        <li><strong>28 Oct 2026</strong> — The Harrow Arms</li>
+        <li><strong>15 Nov 2026</strong> — The Crown, Northwood</li>
+    </ul>
+</section>
+
+<footer>© Room Six</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Six - Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Music</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gigs.html">Gigs</a>
+        <a href="music.html">Music</a>
+        <a href="photos.html">Photos</a>
+        <a href="sheets.html">Music Sheets</a>
+    </nav>
+</header>
+
+<section>
+    <h3>Tracks</h3>
+
+    <div class="track">
+        <p>Sample Track 1</p>
+        <audio controls>
+            <source src="audio/track1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="track">
+        <p>Sample Track 2</p>
+        <audio controls>
+            <source src="audio/track2.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+</section>
+
+<footer>© Room Six</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Six - Photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Photos</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gigs.html">Gigs</a>
+        <a href="music.html">Music</a>
+        <a href="photos.html">Photos</a>
+        <a href="sheets.html">Music Sheets</a>
+    </nav>
+</header>
+
+<section class="photo-grid">
+    <img src="images/photo1.jpg" alt="Room Six live">
+    <img src="images/photo2.jpg" alt="Band rehearsal">
+    <img src="images/photo3.jpg" alt="Crowd shot">
+</section>
+
+<footer>© Room Six</footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Six - Music Sheets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Music Sheets</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gigs.html">Gigs</a>
+        <a href="music.html">Music</a>
+        <a href="photos.html">Photos</a>
+        <a href="sheets.html">Music Sheets</a>
+    </nav>
+</header>
+
+<section>
+    <ul class="sheet-list">
+        <li><a href="sheets/crocodile_rock.pdf" download>Crocodile Rock</a></li>
+        <li><a href="sheets/song2.pdf" download>Song 2</a></li>
+        <li><a href="sheets/song3.pdf" download>Song 3</a></li>
+    </ul>
+</section>
+
+<footer>© Room Six</footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #111;
+    color: #eee;
+}
+
+header {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.gig-list li, .sheet-list li {
+    margin: 10px 0;
+}
+// Add interactive features later if needed
+console.log("Room Six website loaded");
